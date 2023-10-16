@@ -17,5 +17,10 @@ public class MainController {
 	public String helloWorld() {
 		return "Hello World";
 	}
+	
+	@GetMapping(value = "/channa")
+	public String channaPage() {
+		return "Hello Channa, How are you today?";
+	}
 
 }
